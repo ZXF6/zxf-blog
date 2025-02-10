@@ -1,0 +1,11 @@
+{
+  "regions": ["hkg1"],  
+  "routes": [
+    {
+      "src": "/(.*)",
+      "headers": { 
+        "Cache-Control": "public, max-age=3600"
+      }
+    }
+  ]
+}
